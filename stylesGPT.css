@@ -104,3 +104,26 @@
     text-align: center; /* ensure the text inside is centered if it wraps */
   }
   
+
+  #chat-input, #chat-header {
+    font-size: 16px; /* This is to prevent zooming on iPhone */
+  }
+  
+  /* Increase font size for smaller screens */
+  @media (max-width: 480px) {
+    #chat-header {
+      font-size: 20px; /* Adjust as needed for visibility */
+    }
+  
+    #chat-input {
+      font-size: 18px; /* This should already be at least 16px */
+    }
+  
+    /* Add any other responsive adjustments for smaller screens here */
+  }
+  
+  #chat-container {
+    /* Other styles remain unchanged */
+    padding-bottom: 60px; /* Add more padding to bottom for iPhone address bar */
+  }
+  
