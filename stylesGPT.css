@@ -7,7 +7,7 @@
   body, html {
     height: 100%;
     font-family: Arial, sans-serif;
-    background: #ededed;
+    background: #f7f7f7;
   }
   
   #chat-container {
@@ -16,12 +16,12 @@
     height: 100vh;
     /* max-width: 400px; */
     margin: auto;
-    background: white;
+    background: #f7f7f7;
   }
   
   #chat-header {
     background: #5b57d9;
-    color: white;
+    color: #f7f7f7;
     padding: 20px;
     text-align: center;
     
@@ -112,7 +112,7 @@
   /* Increase font size for smaller screens */
   @media (max-width: 480px) {
     #chat-header {
-      font-size: 20px; /* Adjust as needed for visibility */
+      font-size: 22px; /* Adjust as needed for visibility */
     }
   
     #chat-input {
@@ -120,10 +120,12 @@
     }
   
     /* Add any other responsive adjustments for smaller screens here */
-  }
-  
-  #chat-container {
-    /* Other styles remain unchanged */
-    padding-bottom: 60px; /* Add more padding to bottom for iPhone address bar */
+
+    #chat-container {
+      /* Other styles remain unchanged */
+      height: 95vh;
+      /* padding-bottom: 60px;  */
+      /* Add more padding to bottom for iPhone address bar */
+    }  
   }
   
