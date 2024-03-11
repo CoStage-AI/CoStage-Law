@@ -24,6 +24,9 @@
     color: #f7f7f7;
     padding: 20px;
     text-align: center;
+    display: flex; /* Align items with flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
     
   }
   
@@ -102,6 +105,12 @@
     padding: 10px; /* give some space around the text */
     align-items: center; /* center vertically in a flex container */
     text-align: center; /* ensure the text inside is centered if it wraps */
+  }
+
+  #headerLogo {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
   }
   
 
